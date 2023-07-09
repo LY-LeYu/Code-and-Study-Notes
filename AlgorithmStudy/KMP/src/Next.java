@@ -7,7 +7,6 @@ public class Next {
         int j = 0; //j指向前缀末尾，同时可以表示最大相同前后缀长度
         //开始求字符串的前缀表
         for (int i = 1; i < x.length; i++) { //i指向后缀的末尾
-
             //当字符串前后缀不相等时，j回退至next数组对应位置
             while (j > 0 && x[i] != x[j]) {
                 j = next[j - 1];
@@ -21,7 +20,7 @@ public class Next {
         return next;
     }
 
-    //自己写的方法，不够简洁，意义不够明确，通过手算前缀表的方法照猫画虎写的
+    //第一个方法，不够简洁，意义不够明确，通过手算前缀表的方法照猫画虎写的
     public static void getNextArr2(String str) {
         char[] arr = str.toCharArray();
         int[] next = new int[arr.length];
