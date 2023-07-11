@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3ec6ad5-e2e7-40c5-9457-080fb9178262" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnJavaWeb/Demo1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnJavaWeb/Demo1/.idea/artifacts/Demo1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnJavaWeb/Demo1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnJavaWeb/Demo1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnJavaWeb/Demo1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnJavaWeb/Demo1/Demo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnJavaWeb/Demo1/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnJavaWeb/Demo1/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmStudy/KMP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmStudy/KMP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmStudy/KMP/KMP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmStudy/TimeComplexity/TimeComplexity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step1_Section02/Step1_Section02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step1_Section04/Step1_Section04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step1_Section05/Step1_Section05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step1_Section06/Step1_Section06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step1_Section07/Step1_Section07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step1_Section08/Step1_Section08.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step1_Section09/Step1_Section09.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step2_Secation13/Step2_Secation13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step2_Section10/Step2_Section10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step2_section14/Step2_section14.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step2_section15/Step2_section15.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/Step2_section16/Step2_section16.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/TankGame/TankGame.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/QQClient/QQClient.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/QQServer/QQServer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter08/chapter08.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter10/chapter10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter11/chapter11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter12/chapter12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter13/chapter13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter14/chapter14.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter15/chapter15.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter16/chapter16.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter17/chapter17.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter18/chapter18.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter19/chapter19.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter20/chapter20.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter21/chapter21.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter23/chapter23.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter25/chapter25.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter27/chapter27.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/chapter28/chapter28.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/BaseStudy/hsp代码/mhl/mhl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/IoStudy/IoStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/ReflectionStudy/ReflectionStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseStudy/SocketStudy/SocketStudy.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2SMy2ONf1hcdwOU93qF0CA2gDOS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Desktop/学习积累/Code-and-Study-Notes",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a3ec6ad5-e2e7-40c5-9457-080fb9178262" name="更改" comment="" />
+      <created>1688970536443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688970536443</updated>
+      <workItem from="1688970537717" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
