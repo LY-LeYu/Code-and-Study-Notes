@@ -20,5 +20,6 @@
     <!--引入映射文件-->
     <mappers>
         <mapper resource="mappers/UserMapper.xml"></mapper>
+
     </mappers>
 </configuration>
