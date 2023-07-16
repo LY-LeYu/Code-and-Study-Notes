@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.test.Message" %><%--
   Created by IntelliJ IDEA.
   User: Lyric
   Date: 2023/7/10
@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <%=new Message().getMessage()%>
   </body>
 </html>
