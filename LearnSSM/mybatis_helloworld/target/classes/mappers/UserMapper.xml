@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--接口全类名映射-->
+<mapper namespace="com.atguigu.mybatis.mapper.UserMapper">
+    <!--int insertUser();-->
+    <!--id与接口名要一致-->
+    <insert id="insertUser">
+        insert into t_user
+        values (null, 'admin', '123456', 23, '男', '123456@qq.com')
+    </insert>
+
+
+</mapper>
