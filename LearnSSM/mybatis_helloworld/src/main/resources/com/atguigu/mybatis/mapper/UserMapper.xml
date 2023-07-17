@@ -29,7 +29,7 @@
     resultType：自动映射，用于属性名和表中字段名一致的情况
 
     resultMap：自定义映射，用于一对多或多对一或字段名和属性名不一致的情况-->
-    <select id="selectUser" resultType="com.atguigu.mybatis.pojo.User">
+    <select id="selectUser" resultType="User">
         select *
         from t_user
         where id = 1

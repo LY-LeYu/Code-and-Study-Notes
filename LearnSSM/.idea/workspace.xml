@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99d5ba8-a7d7-4225-b8d9-0e116d62ed87" name="更改" comment="MyBatis测试用例">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/com/atguigu/mybatis/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/jdbc.properties" afterDir="false" />
+    <list default="true" id="c99d5ba8-a7d7-4225-b8d9-0e116d62ed87" name="更改" comment="了解MyBatis核心配置文件（mybatis-config），并在IDEA中创建默认模板">
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/atguigu/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/atguigu/mybatis/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/atguigu/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/com/atguigu/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/test/java/com/atguigu/mybatis/test/TestParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/com/atguigu/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/target/classes/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/com/atguigu/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/com/atguigu/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/atguigu/mybatis/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/atguigu/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/atguigu/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/atguigu/mybatis/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/atguigu/mybatis/utils/SqlSessionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/target/test-classes/com/atguigu/mybatis/Test1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +35,9 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="mybatis-config" />
         <option value="mybatis-mapper" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,6 +72,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "D:/Desktop/Learn/Code-and-Study-Notes/LearnSSM/mybatis_parameter/src/main/java/com/atguigu/mybatis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,26 +84,20 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_parameter\src\main\java\com\atguigu\mybatis" />
+      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_parameter\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_parameter\src\main\resources\com\atguigu\mybatis\mapper" />
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_helloworld\src\main\resources\com\atguigu\mybatis\mapper" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.mybatis.utils" />
+      <recent name="com.atguigu.mybatis.pojo" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test1.testSelectAllUser">
-    <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_helloworld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.Test1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestParameter.testGetAllUser">
     <configuration name="Test1.testSelectAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_helloworld" />
       <extension name="coverage">
@@ -141,17 +146,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1.testupdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_helloworld" />
+    <configuration name="TestParameter.testGetAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_parameter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.*" />
+          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.Test1" />
-      <option name="METHOD_NAME" value="testupdateUser" />
+      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.TestParameter" />
+      <option name="METHOD_NAME" value="testGetAllUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestParameter.testGetUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_parameter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.TestParameter" />
+      <option name="METHOD_NAME" value="testGetUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestParameter.testGetUserByUsername" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="mybatis_parameter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.TestParameter" />
+      <option name="METHOD_NAME" value="testGetUserByUsername" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test1.testSelectAllUser" />
+        <item itemvalue="JUnit.TestParameter.testGetAllUser" />
+        <item itemvalue="JUnit.TestParameter.testGetUser" />
         <item itemvalue="JUnit.Test1.testSelectUser" />
+        <item itemvalue="JUnit.Test1.testSelectAllUser" />
         <item itemvalue="JUnit.Test1.testdeleteUser" />
-        <item itemvalue="JUnit.Test1.testupdateUser" />
-        <item itemvalue="JUnit.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +212,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689490976825</updated>
-      <workItem from="1689490978560" duration="13351000" />
+      <workItem from="1689490978560" duration="13515000" />
+      <workItem from="1689553910663" duration="23000" />
+      <workItem from="1689571100350" duration="9281000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis测试用例">
       <created>1689495681651</created>
@@ -191,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689495692729</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="了解MyBatis核心配置文件（mybatis-config），并在IDEA中创建默认模板">
+      <created>1689513379849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689513379849</updated>
+    </task>
+    <task id="LOCAL-00004" summary="了解MyBatis核心配置文件（mybatis-config），并在IDEA中创建默认模板">
+      <created>1689513415014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689513415014</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +263,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MyBatis测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyBatis测试用例" />
+    <MESSAGE value="了解MyBatis核心配置文件（mybatis-config），并在IDEA中创建默认模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="了解MyBatis核心配置文件（mybatis-config），并在IDEA中创建默认模板" />
   </component>
 </project>
