@@ -10,4 +10,49 @@
     <select id="getAllUser" resultType="User">
         select * from t_user where gender = #{gender} and age = #{age}
     </select>
+
+
+    <!--多对一映射-->
+    <resultMap id="userGroupMap" type="User">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="age" column="age"/>
+        <result property="gender" column="gender"/>
+        <result property="emailAddress" column="email"/>
+        <result column="gid" property="gid"></result>
+        <association property="group" javaType="Group">
+            <id column="gid" property="gid"></id>
+            <result column="gname" property="gname"/>
+        </association>
+    </resultMap>
+    
+    <select id="getUserGroup" resultMap="userGroupMap">
+        select *
+        from t_user u left join t_group g on g.gid = u.gid
+        where u.gid = #{gid}
+    </select>
+
+
+    <!--一对多映射-->
+    <resultMap id="GroupUserMap" type="Group">
+        <id column="gid" property="gid"></id>
+        <result column="gname" property="gname"></result>
+        <collection property="users" ofType="User">
+            <id property="id" column="id"/>
+            <result property="username" column="username"/>
+            <result property="password" column="password"/>
+            <result property="age" column="age"/>
+            <result property="gender" column="gender"/>
+            <result property="emailAddress" column="emailAddress"/>
+            <result column="gid" property="gid"></result>
+        </collection>
+    </resultMap>
+
+    <select id="getGroupUser" resultMap="GroupUserMap">
+        select g.*,u.*
+        from t_user u right join t_group g on g.gid = u.gid
+        where u.gid = #{gid}
+    </select>
+    
 </mapper>
