@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Student" class="com.atguigu.spring.pojo.Student" scope="singleton">
+        <property name="name" >
+            <value><![CDATA[<David Tao>]]></value>
+        </property>
+        <property name="age" value="22"></property>
+        <property name="gender" value="man"></property>
+        <property name="sno" value="01"></property>
+        <property name="clazz" ref="clazzOne"/>
+    </bean>
+
+    <bean id="clazzOne" class="com.atguigu.spring.pojo.Clazz">
+        <property name="clazzId" value="1111"></property>
+        <property name="clazzName" value="三年二班"></property>
+    </bean>
+
+</beans>

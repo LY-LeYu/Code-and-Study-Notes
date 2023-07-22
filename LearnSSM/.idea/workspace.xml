@@ -4,38 +4,46 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99d5ba8-a7d7-4225-b8d9-0e116d62ed87" name="更改" comment="了解MyBatis中动态SQL所需要的标签">
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/src/main/java/com/atguigu/mybatis/Utils/SqlSessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/src/main/java/com/atguigu/mybatis/mapper/CacheMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/src/main/java/com/atguigu/mybatis/pojo/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/src/main/java/com/atguigu/mybatis/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/src/main/resources/com/atguigu/mybatis/mapper/CacheMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/src/test/java/com/atguigu/mybatis/test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/java/com/atguigu/mybatis/mapper/GroupMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/java/com/atguigu/mybatis/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/java/com/atguigu/mybatis/mapper/UserMapper.java.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/java/com/atguigu/mybatis/pojo/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/java/com/atguigu/mybatis/pojo/GroupExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/java/com/atguigu/mybatis/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/java/com/atguigu/mybatis/pojo/User.java.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/java/com/atguigu/mybatis/pojo/UserExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/java/com/atguigu/mybatis/pojo/UserExample.java.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/resources/com/atguigu/mybatis/mapper/GroupMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/resources/com/atguigu/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mgb/src/test/java/com/atguigu/mybatis/Test.java" afterDir="false" />
+    <list default="true" id="c99d5ba8-a7d7-4225-b8d9-0e116d62ed87" name="更改" comment="了解MyBatis中逆向工程的构建，以及数据库分页插件">
+      <change afterPath="$PROJECT_DIR$/Spring_helloworld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_helloworld/src/main/java/com/atguigu/spring/pojo/HelloSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_helloworld/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_helloworld/src/test/java/com/atguigu/spring/test/TestDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_ioc_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_ioc_xml/src/main/java/com/atguigu/spring/pojo/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_ioc_xml/src/main/java/com/atguigu/spring/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_ioc_xml/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_ioc_xml/src/test/java/com/atguigu/spring/TestDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop_annotation/src/main/java/com/atguigu/spring/aop/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop_annotation/src/main/java/com/atguigu/spring/aop/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop_annotation/src/main/java/com/atguigu/spring/aop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop_annotation/src/main/resources/spring_aoc_annotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop_annotation/src/test/java/com/atguigu/spring/aop/TestAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/src/main/java/com/atguigu/spring/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/src/main/java/com/atguigu/spring/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/src/main/java/com/atguigu/spring/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/src/main/java/com/atguigu/spring/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/src/main/java/com/atguigu/spring/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/src/main/resources/spring-ioc-annotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/src/test/java/spring/atguigu/test/TestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/main/java/com/atguigu/spring/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/main/java/com/atguigu/spring/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/main/java/com/atguigu/spring/dao/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/main/java/com/atguigu/spring/pojo/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/main/java/com/atguigu/spring/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/main/java/com/atguigu/spring/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/main/resources/spring_transaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/test/java/com/atguigu/spring/JDBCAnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_transaction/src/test/java/com/atguigu/spring/JDBCTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_ioc_xml/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_cache/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +54,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Interface" />
         <option value="mybatis-mapper" />
         <option value="mybatis-config" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -86,7 +95,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "D:/Desktop/Learn/Code-and-Study-Notes/LearnSSM/mybatis_mgb/src/main/resources",
+    "last_opened_file_path": "D:/Desktop/Learn/Code-and-Study-Notes/LearnSSM/spring_ioc_annotation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,16 +103,17 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.1671875",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "cc3a74a5bc43f4022b30950f8eeacff5"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\spring_transaction\src\main\resources" />
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_mgb\src\main\resources" />
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_cache\src\main\java\com\atguigui\mybatis\pojo" />
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_cache\src\main\java" />
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_cache\src\main\resources" />
-      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_dynamicSQL\src\main\java\com\atguigu\mybatis\pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_dynamicSQL\src\main\resources" />
@@ -117,34 +127,82 @@
       <recent name="com.atguigu.mybatis.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test.testPage">
-    <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_cache" />
+  <component name="RunManager" selected="JUnit.JDBCAnnotationTest.testBuyBook">
+    <configuration name="JDBCAnnotationTest.testBuyBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_transaction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
+          <option name="PATTERN" value="com.atguigu.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.Test1" />
+      <option name="PACKAGE_NAME" value="com.atguigu.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring.JDBCAnnotationTest" />
+      <option name="METHOD_NAME" value="testBuyBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCTemplateTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring.JDBCTemplateTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnnotation.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spring.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="spring.atguigu.test.TestAnnotation" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDynamicSQL.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_dynamicSQL" />
+    <configuration name="TestAop.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aop_annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.*" />
+          <option name="PATTERN" value="com.atguigu.spring.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.TestDynamicSQL" />
+      <option name="PACKAGE_NAME" value="com.atguigu.spring.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring.aop.TestAop" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_ioc_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring.TestDemo1" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,61 +224,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestParameter.testUserGroupMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_parameter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.TestParameter" />
-      <option name="METHOD_NAME" value="testUserGroupMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.Tset1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_mgb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.Test" />
-      <option name="METHOD_NAME" value="Tset1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_mgb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.Test" />
-      <option name="METHOD_NAME" value="testPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.testPage" />
-        <item itemvalue="JUnit.Test.Tset1" />
-        <item itemvalue="JUnit.Test1.test1" />
-        <item itemvalue="JUnit.TestDynamicSQL.test1" />
-        <item itemvalue="JUnit.TestParameter.testUserGroupMap" />
+        <item itemvalue="JUnit.JDBCAnnotationTest.testBuyBook" />
+        <item itemvalue="JUnit.TestAop.test1" />
+        <item itemvalue="JUnit.JDBCTemplateTest.testUpdate" />
+        <item itemvalue="JUnit.TestAnnotation.test1" />
+        <item itemvalue="JUnit.TestDemo1.test" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +247,12 @@
       <workItem from="1689571100350" duration="12953000" />
       <workItem from="1689642563083" duration="4000" />
       <workItem from="1689656681041" duration="11554000" />
-      <workItem from="1689744922054" duration="12817000" />
+      <workItem from="1689744922054" duration="14960000" />
+      <workItem from="1689770589063" duration="1004000" />
+      <workItem from="1689814693816" duration="542000" />
+      <workItem from="1689831629121" duration="7385000" />
+      <workItem from="1689918504018" duration="7641000" />
+      <workItem from="1689986304344" duration="14000000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis测试用例">
       <created>1689495681651</created>
@@ -295,7 +310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689747859212</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="了解MyBatis中逆向工程的构建，以及数据库分页插件">
+      <created>1689768538673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689768538673</updated>
+    </task>
+    <task id="LOCAL-00010" summary="了解MyBatis中逆向工程的构建，以及数据库分页插件">
+      <created>1689768544563</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689768544563</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +348,7 @@
     <MESSAGE value="了解MyBatis参数值设置的方式" />
     <MESSAGE value="了解MyBatis中resultmap映射的使用" />
     <MESSAGE value="了解MyBatis中动态SQL所需要的标签" />
-    <option name="LAST_COMMIT_MESSAGE" value="了解MyBatis中动态SQL所需要的标签" />
+    <MESSAGE value="了解MyBatis中逆向工程的构建，以及数据库分页插件" />
+    <option name="LAST_COMMIT_MESSAGE" value="了解MyBatis中逆向工程的构建，以及数据库分页插件" />
   </component>
 </project>
