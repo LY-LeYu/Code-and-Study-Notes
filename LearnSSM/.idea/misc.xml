@@ -5,7 +5,6 @@
     <file type="web" url="file://$PROJECT_DIR$/spring_mvc_helloworld" />
     <file type="web" url="file://$PROJECT_DIR$/spring_mvc_restful" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc_helloWorld" />
-    <file type="web" url="file://$PROJECT_DIR$/SSM" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -23,7 +22,6 @@
         <option value="$PROJECT_DIR$/spring_ioc_annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring_mvc_helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/spring_mvc_restful/pom.xml" />
-        <option value="$PROJECT_DIR$/SSM/pom.xml" />
       </list>
     </option>
   </component>
