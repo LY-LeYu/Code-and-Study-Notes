@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="spring_mvc_restful:war exploded" />
+      <artifact name="SSM:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,25 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99d5ba8-a7d7-4225-b8d9-0e116d62ed87" name="更改" comment="了解MyBatis中逆向工程的构建，以及数据库分页插件">
-      <change afterPath="$PROJECT_DIR$/spring_mvc_helloworld/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_helloworld/src/main/java/com/atguigu/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_helloworld/src/main/resources/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_helloworld/src/main/webapp/WEB-INF/templates/Hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_helloworld/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/java/com/atguigu/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/java/com/atguigu/dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/java/com/atguigu/pojo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/resources/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/webapp/WEB-INF/templates/employee_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/webapp/WEB-INF/templates/employee_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/webapp/WEB-INF/templates/employee_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/webapp/static/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/webapp/static/js/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/webapp/static/js/jquery-1.8.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/webapp/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/java/com/atguigu/ssm/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/java/com/atguigu/ssm/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/java/com/atguigu/ssm/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/java/com/atguigu/ssm/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/java/com/atguigu/ssm/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/resources/Spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/resources/com/atguigu/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/webapp/WEB-INF/templates/employee_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/webapp/static/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/webapp/static/js/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/webapp/static/js/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/webapp/static/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -43,11 +43,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="mybatis-mapper" />
-        <option value="mybatis-config" />
-        <option value="Interface" />
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
+        <option value="mybatis-config" />
+        <option value="Interface" />
+        <option value="mybatis-mapper" />
         <option value="Class" />
         <option value="HTML File" />
       </list>
@@ -83,36 +83,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/Learn/Code-and-Study-Notes/LearnSSM/spring_mvc_restful/src/main/webapp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.1671875&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.applicationServers&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;84e6023edfde98b687fb1ef14b075fb3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "D:/Desktop/Learn/Code-and-Study-Notes/LearnSSM/SSM/src/main/webapp/WEB-INF/templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.1724907",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "spring",
+    "spring.configuration.checksum": "2bb42e20c2d2068ba679ea23c792918d"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\SSM\src\main\webapp\WEB-INF\templates" />
+      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\SSM\src\main\webapp" />
+      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\SSM\src\main\resources" />
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\spring_mvc_restful\src\main\webapp" />
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\springmvc_helloWorld\src\main\resources" />
-      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\spring_transaction\src\main\resources" />
-      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_mgb\src\main\resources" />
-      <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\mybatis_cache\src\main\java\com\atguigui\mybatis\pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\spring_mvc_helloworld\src\main\resources" />
@@ -128,7 +128,7 @@
       <recent name="com.atguigu.mybatis.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 服务器.spring_restful">
+  <component name="RunManager" selected="Tomcat 服务器.ssm">
     <configuration name="JDBCAnnotationTest.testBuyBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_transaction" />
       <extension name="coverage">
@@ -225,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spring_restful" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.91" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration name="ssm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.91" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="spring_mvc_restful:war exploded">
+        <artifact name="SSM:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/spring_rest" />
+            <option name="CONTEXT_PATH" value="/SSM" />
           </settings>
         </artifact>
       </deployment>
@@ -308,7 +308,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="spring_mvc_restful:war exploded" />
+          <artifact name="SSM:war exploded" />
         </option>
       </method>
     </configuration>
@@ -319,7 +319,7 @@
       <item itemvalue="JUnit.TestAnnotation.test1" />
       <item itemvalue="JUnit.TestAop.test1" />
       <item itemvalue="JUnit.TestDemo1.test" />
-      <item itemvalue="Tomcat 服务器.spring_restful" />
+      <item itemvalue="Tomcat 服务器.ssm" />
     </list>
     <recent_temporary>
       <list>
@@ -357,7 +357,13 @@
       <workItem from="1690246703998" duration="9000" />
       <workItem from="1690261570179" duration="16353000" />
       <workItem from="1690334424481" duration="21000" />
-      <workItem from="1690349142499" duration="6654000" />
+      <workItem from="1690349142499" duration="6952000" />
+      <workItem from="1690427504151" duration="3000" />
+      <workItem from="1690438995117" duration="7197000" />
+      <workItem from="1690508732023" duration="7000" />
+      <workItem from="1690531069883" duration="12297000" />
+      <workItem from="1690596659003" duration="3000" />
+      <workItem from="1690612070438" duration="6903000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis测试用例">
       <created>1689495681651</created>
@@ -456,15 +462,8 @@
     <MESSAGE value="了解MyBatis中逆向工程的构建，以及数据库分页插件" />
     <option name="LAST_COMMIT_MESSAGE" value="了解MyBatis中逆向工程的构建，以及数据库分页插件" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring_mvc_restful/src/main/java/com/atguigu/controller/EmployeeController.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
