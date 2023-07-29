@@ -8,15 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis_mgb" />
         <module name="Spring_ioc_xml" />
-        <module name="spring_transaction" />
         <module name="Spring_helloworld" />
         <module name="mybatis_helloworld" />
+        <module name="SSM" />
+        <module name="spring_aop_annotation" />
+        <module name="spring_mvc_helloworld" />
+        <module name="spring_transaction" />
         <module name="mybatis_parameter" />
         <module name="spring_mvc_restful" />
         <module name="mybatis_dynamicSQL" />
-        <module name="spring_aop_annotation" />
         <module name="mybatis_cache" />
-        <module name="spring_mvc_helloworld" />
         <module name="spring_ioc_annotation" />
       </profile>
     </annotationProcessing>
