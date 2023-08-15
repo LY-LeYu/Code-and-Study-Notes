@@ -1,0 +1,37 @@
+server:
+  port: 7777
+spring:
+  main:
+    allow-circular-references: true
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  datasource:
+    url: jdbc:mysql://1.14.97.92:3306/sg_blog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: Sql@123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    Redis配置
+  redis:
+    host: 1.14.97.92
+    port: 6400
+  #    上传限制
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 5MB
+mybatis-plus:
+  configuration:
+    # 日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      id-type: auto
+oss:
+  secretId: AKIDRrF3iCc0CCyc2HKEyXu41nOL9pLn8RwP
+  secretKey: Y3WxMdjcO0SkpjQvnqmbRH0YwCQWagr7
+  bucketName: cosofly-1319896663
+

@@ -1,0 +1,12 @@
+com\ly\controller\AdminLoginController.class
+com\ly\controller\MenuController.class
+com\ly\BlogAdminApplication.class
+com\ly\controller\UserController.class
+com\ly\controller\RoleController.class
+com\ly\controller\ArticleController.class
+com\ly\controller\CategoryController.class
+com\ly\controller\LinkController.class
+com\ly\controller\UploadController.class
+com\ly\controller\TagController.class
+com\ly\config\SecurityConfig.class
+com\ly\filter\JwtAuthenticationTokenFilter.class
