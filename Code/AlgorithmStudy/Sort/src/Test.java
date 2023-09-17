@@ -16,7 +16,7 @@ public class Test {
 //            Sort.selectionSort(arr);
         //随机生成数据
         Random rd = new Random();
-        int num = 7;
+        int num = 10;
         int[] arr = new int[num];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = rd.nextInt(100) + 1;
@@ -24,19 +24,15 @@ public class Test {
         System.out.print("测试数据：");
         System.out.println(Arrays.toString(arr));
 
-//        Sort.bubbleSort(arr);
-//        Sort.selectionSort(arr);
-        QuickSort.sort2(arr, 0, num - 1);
-        outPutArr(arr);
+//        QuickSort.sort2(arr, 0, num - 1);
+//        int[] sort = MergeSort.sort(arr);
+        int[] sort = HeapSort1.sort(arr);
+        System.out.print("排序后：");
+        System.out.println(Arrays.toString(sort));
+
+
 
 //    }
 
-}
-
-    static void outPutArr(int[] arr) {
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
     }
 }

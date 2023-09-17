@@ -1,7 +1,6 @@
 public class HeapSort {
     //堆排序
 
-    // Global variable that records the length of an array;
     static int heapLen;
 
     private static void swap(int[] arr, int i, int j) {
@@ -12,11 +11,11 @@ public class HeapSort {
 
 
     private static void buildMaxHeap(int[] arr) {
+//        arr.length / 2 - 1是最后一个非叶子节点，从下往上构建大顶堆
         for (int i = arr.length / 2 - 1; i >= 0; i--) {
             heapify(arr, i);
         }
     }
-
 
     private static void heapify(int[] arr, int i) {
         int left = 2 * i + 1;
@@ -34,14 +33,10 @@ public class HeapSort {
         }
     }
 
-
     public static int[] sort(int[] arr) {
-        // index at the end of the heap
         heapLen = arr.length;
-        // build MaxHeap
         buildMaxHeap(arr);
         for (int i = arr.length - 1; i > 0; i--) {
-            // Move the top of the heap to the tail of the heap in turn
             swap(arr, 0, i);
             heapLen -= 1;
             heapify(arr, 0);

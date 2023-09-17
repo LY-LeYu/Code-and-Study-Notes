@@ -27,7 +27,7 @@ public class QuickSort {
             return;
         }
         //选取基准数
-        int val =arr[low];
+        int val = arr[low];
         int left = low;
         int right = high;
         while(left < right){//当l >= r时，就是调整完成时
