@@ -18,7 +18,8 @@ public class EmployeeController {
     private EmployeeDao employeeDao;
 
     //查询
-    @RequestMapping(value = "/employee", method = RequestMethod.GET)
+//    @RequestMapping(value = "/employee", method = RequestMethod.GET)
+    @GetMapping(value = "/employee")
     public String getAllEmployee(Model model){
         Collection<Employee> allEmployee = employeeDao.getAll();
         model.addAttribute("allEmployee", allEmployee);

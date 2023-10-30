@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis_mgb" />
         <module name="Spring_ioc_xml" />
+        <module name="spring_annotation" />
         <module name="Spring_helloworld" />
         <module name="mybatis_helloworld" />
         <module name="SSM" />

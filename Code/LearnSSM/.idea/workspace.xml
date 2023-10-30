@@ -9,38 +9,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99d5ba8-a7d7-4225-b8d9-0e116d62ed87" name="更改" comment="了解MyBatis中逆向工程的构建，以及数据库分页插件">
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/LearnSpringBoot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_helloworld/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_helloworld/src/main/java/com/spring/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_helloworld/src/main/java/com/spring/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_helloworld/src/main/java/com/spring/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_helloworld/src/main/resources/Link.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_helloworld/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_helloworld/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/main/java/com/example/springboot_web/SpringBootWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/main/java/com/example/springboot_web/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/main/resources/public/fmm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/main/resources/static/Link.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/main/resources/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/main/resources/static/tk.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnSpringBoot/SpringBoot_web/src/test/java/com/example/springboot_web/SpringBootWebApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/SSM-1.0-SNAPSHOT/WEB-INF/templates/employee_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/SSM-1.0-SNAPSHOT/WEB-INF/templates/employee_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_mvc_restful/src/main/java/com/atguigu/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc_restful/src/main/java/com/atguigu/controller/EmployeeController.java" afterDir="false" />
-    </list>
+    <list default="true" id="c99d5ba8-a7d7-4225-b8d9-0e116d62ed87" name="更改" comment="了解MyBatis中逆向工程的构建，以及数据库分页插件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -90,29 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/Learn/Code-and-Study-Notes/LearnSSM/SSM/src/main/webapp/WEB-INF/templates&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.1724907&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;2bb42e20c2d2068ba679ea23c792918d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "D:/Desktop/Learn/2.Github文件/Code/LearnSSM",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.1724907",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "spring",
+    "spring.configuration.checksum": "191f2ba1c331536556cba109cf1b76fe"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Desktop\Learn\Code-and-Study-Notes\LearnSSM\SSM\src\main\webapp\WEB-INF\templates" />
@@ -374,6 +343,8 @@
       <workItem from="1690779200756" duration="49000" />
       <workItem from="1690793592754" duration="557000" />
       <workItem from="1690872227628" duration="628000" />
+      <workItem from="1696678298688" duration="166000" />
+      <workItem from="1696678917399" duration="464000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis测试用例">
       <created>1689495681651</created>
