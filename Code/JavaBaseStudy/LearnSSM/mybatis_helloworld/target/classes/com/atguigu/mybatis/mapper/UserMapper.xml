@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--接口全类名映射-->
+<mapper namespace="com.atguigu.mybatis.mapper.UserMapper">
+    <!--int insertUser();-->
+    <!--id与接口名要一致-->
+    <insert id="insertUser">
+        insert into t_user
+        values (null, 'admin', '123456', 23, '男', '123456@qq.com')
+    </insert>
+
+    <delete id="deleteUser">
+        delete
+        from t_user
+        where id = 3
+    </delete>
+
+    <update id="updateUser">
+        update t_user
+        set username = 'O_o',
+            password = '654321'
+        where id = 2
+    </update>
+
+    <!--查询的标签select必须设置属性resultType或resultMap，用于设置实体类和数据库表的映射关系
+
+    resultType：自动映射，用于属性名和表中字段名一致的情况
+
+    resultMap：自定义映射，用于一对多或多对一或字段名和属性名不一致的情况-->
+    <select id="selectUser" resultType="User">
+        select *
+        from t_user
+        where id = 1
+    </select>
+
+    <select id="selectAllUser" resultType="com.atguigu.mybatis.pojo.User">
+        select * from t_user
+    </select>
+
+</mapper>
